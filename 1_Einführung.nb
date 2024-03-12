@@ -1,0 +1,287 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      9556,        279]
+NotebookOptionsPosition[      7501,        237]
+NotebookOutlinePosition[      7915,        253]
+CellTagsIndexPosition[      7872,        250]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Einf\[UDoubleDot]hrung in Mathematika", "Title",
+ CellChangeTimes->{{3.9189226653918285`*^9, 
+  3.91892268300063*^9}},ExpressionUUID->"868f4c7c-cf5c-4e89-933e-\
+e9914e0239a4"],
+
+Cell["f\[UDoubleDot]r Rebekka", "Subtitle",
+ CellChangeTimes->{{3.9189226653918285`*^9, 
+  3.9189226761618567`*^9}},ExpressionUUID->"73e93705-3a94-4de6-b87c-\
+4104fe97f817"],
+
+Cell["\<\
+Bitte f\[UDoubleDot]r die Audiospur folgenden Link
+https://www.carl-firle.eu/wp-content/uploads/2024/03/Einfuehrung-in-\
+Mathematica-1-1.mp3
+abrufen (oder das GitHub-Audioverzeichnis nutzen)\
+\>", "Text",
+ CellChangeTimes->{{3.9192711987216854`*^9, 3.919271207921807*^9}, {
+  3.919271759523346*^9, 3.9192717650482516`*^9}, {3.919271798212779*^9, 
+  3.919271809942553*^9}},ExpressionUUID->"2cbad2ce-f39d-4e2a-9ba2-\
+9d97d9404796"],
+
+Cell["\<\
+Bitte f\[UDoubleDot]r die Audiospur folgenden Link
+https://www.carl-firle.eu/wp-content/uploads/2024/03/Einfuehrung-in-\
+Mathematica-1-2.mp3
+abrufen (oder das GitHub-Audioverzeichnis nutzen)\
+\>", "Text",
+ CellChangeTimes->{{3.9192712123470707`*^9, 3.919271220313994*^9}, 
+   3.919271773718877*^9, {3.919271814856224*^9, 
+   3.919271815145873*^9}},ExpressionUUID->"776fdcfd-7972-44c2-9020-\
+b88e554c97f3"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"3", "+", "6"}]], "Input",
+ CellChangeTimes->{{3.918923795267087*^9, 3.9189237973744607`*^9}},
+ CellLabel->"In[13]:=",ExpressionUUID->"310164f0-7aed-4371-a856-13733f08b775"],
+
+Cell[BoxData["9"], "Output",
+ CellChangeTimes->{3.91892403795086*^9},
+ CellLabel->"Out[13]=",ExpressionUUID->"dc19e5e2-5f31-4e53-8bdb-317b80124f1b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"FullForm", "[", 
+  RowBox[{"a", "+", "3"}], "]"}]], "Input",
+ CellChangeTimes->{{3.9189229485400066`*^9, 3.9189229534455786`*^9}, {
+   3.9189230025953503`*^9, 3.918923004577546*^9}, 3.9189230657884054`*^9, 
+   3.918923830361152*^9},
+ CellLabel->"In[14]:=",ExpressionUUID->"967ed358-80c0-4b9a-8a89-b3e3c916697b"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   RowBox[{"Plus", "[", 
+    RowBox[{"3", ",", "a"}], "]"}],
+   ShowSpecialCharacters->False,
+   ShowStringCharacters->True,
+   NumberMarks->True],
+  FullForm]], "Output",
+ CellChangeTimes->{3.9189229537979317`*^9, 3.918923005141759*^9, 
+  3.9189230659823737`*^9, 3.91892321988004*^9, 3.91892403797937*^9},
+ CellLabel->
+  "Out[14]//FullForm=",ExpressionUUID->"04a5d4f8-8590-4ba3-8528-dc04cbda8bd1"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(", 
+   RowBox[{"6", "+", "3"}], ")"}], "//", "FullForm"}]], "Input",
+ CellChangeTimes->{{3.918922964863222*^9, 3.9189229899718*^9}, {
+  3.91892302694588*^9, 3.918923028747858*^9}},
+ CellLabel->"In[5]:=",ExpressionUUID->"2918e987-4b63-4b2c-af98-ecc658993482"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox["9",
+   ShowSpecialCharacters->False,
+   ShowStringCharacters->True,
+   NumberMarks->True],
+  FullForm]], "Output",
+ CellChangeTimes->{{3.9189229694692116`*^9, 3.918922990419444*^9}, 
+   3.918923029186901*^9},
+ CellLabel->
+  "Out[5]//FullForm=",ExpressionUUID->"348de2d5-b673-4110-b2bb-96bc6e4cac6c"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", 
+   RowBox[{
+   "hier", " ", "noch", " ", "ein", " ", "Beispiel", " ", "f\[UDoubleDot]r", 
+    " ", "FullForm"}], "*)"}], "\[IndentingNewLine]", 
+  RowBox[{"FullForm", "[", 
+   RowBox[{
+    FractionBox["x", 
+     SqrtBox["5"]], "+", 
+    SuperscriptBox["y", "2"], "+", 
+    RowBox[{"1", "/", "z"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.9189242097539773`*^9, 3.918924219571104*^9}},
+ CellLabel->"In[15]:=",ExpressionUUID->"188437a5-d934-4e48-a15a-a0aea193bc3e"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   RowBox[{"Plus", "[", 
+    RowBox[{
+     RowBox[{"Times", "[", 
+      RowBox[{
+       RowBox[{"Power", "[", 
+        RowBox[{"5", ",", 
+         RowBox[{"Rational", "[", 
+          RowBox[{
+           RowBox[{"-", "1"}], ",", "2"}], "]"}]}], "]"}], ",", "x"}], "]"}], 
+     ",", 
+     RowBox[{"Power", "[", 
+      RowBox[{"y", ",", "2"}], "]"}], ",", 
+     RowBox[{"Power", "[", 
+      RowBox[{"z", ",", 
+       RowBox[{"-", "1"}]}], "]"}]}], "]"}],
+   ShowSpecialCharacters->False,
+   ShowStringCharacters->True,
+   NumberMarks->True],
+  FullForm]], "Output",
+ CellChangeTimes->{3.9189230608092623`*^9, 3.918924223021577*^9},
+ CellLabel->
+  "Out[15]//FullForm=",ExpressionUUID->"6cfbbc75-9c35-48fa-9aa9-d5cc65036924"]
+}, Open  ]],
+
+Cell["\<\
+Es gibt eine hervorrangede Einf\[UDoubleDot]hrung von Wolfram selbst: \
+https://www.wolfram.com/language/elementary-introduction/3rd-ed/preface.html\
+\>", "Text",
+ CellChangeTimes->{{3.9189244438065786`*^9, 
+  3.9189244773044877`*^9}},ExpressionUUID->"92c39553-3602-4091-bd53-\
+a66b507052e6"],
+
+Cell[CellGroupData[{
+
+Cell["Klammern und Zeichen", "Chapter",
+ CellChangeTimes->{{3.9189242489120784`*^9, 
+  3.918924255666828*^9}},ExpressionUUID->"4fce5f0e-5a1e-4648-b91d-\
+412fa0930118"],
+
+Cell["\<\
+Bitte f\[UDoubleDot]r die Audiospur folgenden Link
+https://www.carl-firle.eu/wp-content/uploads/2024/03/Einfuehrung-in-\
+Mathematica-1-3.mp3
+abrufen (oder das GitHub-Audioverzeichnis nutzen)\
+\>", "Text",
+ CellChangeTimes->{{3.9192712305440474`*^9, 3.9192712417929654`*^9}, 
+   3.9192717836909494`*^9, {3.919271822121121*^9, 
+   3.919271822316651*^9}},ExpressionUUID->"eeed5322-d627-43e2-bda7-\
+48e6bfbfe06a"],
+
+Cell["\<\
+
+
+[] = @ = //
+ {} = List[]
+&/@ = Map[]
+@@ = Apply[] = Function[{}]
+@@@ = MapApply[]
+\"\\\"\
+\>", "Text",
+ CellChangeTimes->{{3.9189242636884747`*^9, 3.9189243643697524`*^9}, {
+   3.9189245198511004`*^9, 3.918924520387071*^9}, {3.918924841394623*^9, 
+   3.918924843924078*^9}, {3.918924875558734*^9, 3.9189248783959217`*^9}, {
+   3.9189249647162237`*^9, 3.918924968635458*^9}, {3.918925042246627*^9, 
+   3.9189250897646694`*^9}, 3.9189251537473097`*^9, {3.918925354970138*^9, 
+   3.9189253557768135`*^9}},ExpressionUUID->"91aae324-ec92-4b7f-93a5-\
+e5be2494d68d"],
+
+Cell["\<\
+
+sehr wichtig noch doppelte, eckige Klammern
+[[]] = Part[]
+
+die Zeichen 
+(* *)
+erm\[ODoubleDot]glichen Dir das Schreiben von Kommentaren
+
+hier noch weitere Zeichen, die h\[ADoubleDot]ufig vorkommen, erstmal aber \
+nicht so relevant sind:
+% vorheriger Output
+~~ verbindet Strings
+<> verbindet Strings/Objekte
+# steht f\[UDoubleDot]r eine Variable und muss immer in Verbindung mit einem \
+& stehen
+=. steht f\[UDoubleDot]r Clear[] damit kann eine Variable oder Funktion zur\
+\[UDoubleDot]ckgesetzt werden
+_ oder __ oder ___ steht f\[UDoubleDot]r ein Pattern (kommt sp\[ADoubleDot]ter)
+/. ReplaceAll
+== EqualQ
+=== SameQ
+!= UnequalQ
+=!= UnsameQ
+\
+\>", "Text",
+ CellChangeTimes->{{3.918925363160591*^9, 3.9189255152195034`*^9}, 
+   3.91892593460176*^9, {3.918926611349599*^9, 3.9189266570493865`*^9}, {
+   3.9189268699423*^9, 3.9189268858395567`*^9}, {3.9190145317654247`*^9, 
+   3.919014589174241*^9}, {3.9191009575651536`*^9, 
+   3.9191009592640696`*^9}},ExpressionUUID->"5567187c-9e51-444f-bd3f-\
+6e1035e1af1b"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{661.1999999999999, 568.8},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"13.1 for Microsoft Windows (64-bit) (August 22, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"320c1a8e-037b-489f-922d-7db75560b087"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 181, 3, 98, "Title",ExpressionUUID->"868f4c7c-cf5c-4e89-933e-e9914e0239a4"],
+Cell[764, 27, 173, 3, 53, "Subtitle",ExpressionUUID->"73e93705-3a94-4de6-b87c-4104fe97f817"],
+Cell[940, 32, 439, 9, 104, "Text",ExpressionUUID->"2cbad2ce-f39d-4e2a-9ba2-9d97d9404796"],
+Cell[1382, 43, 415, 9, 104, "Text",ExpressionUUID->"776fdcfd-7972-44c2-9020-b88e554c97f3"],
+Cell[CellGroupData[{
+Cell[1822, 56, 196, 3, 28, "Input",ExpressionUUID->"310164f0-7aed-4371-a856-13733f08b775"],
+Cell[2021, 61, 148, 2, 32, "Output",ExpressionUUID->"dc19e5e2-5f31-4e53-8bdb-317b80124f1b"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2206, 68, 335, 6, 28, "Input",ExpressionUUID->"967ed358-80c0-4b9a-8a89-b3e3c916697b"],
+Cell[2544, 76, 433, 12, 46, "Output",ExpressionUUID->"04a5d4f8-8590-4ba3-8528-dc04cbda8bd1"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3014, 93, 294, 6, 28, "Input",ExpressionUUID->"2918e987-4b63-4b2c-af98-ecc658993482"],
+Cell[3311, 101, 334, 10, 46, "Output",ExpressionUUID->"348de2d5-b673-4110-b2bb-96bc6e4cac6c"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3682, 116, 506, 13, 70, "Input",ExpressionUUID->"188437a5-d934-4e48-a15a-a0aea193bc3e"],
+Cell[4191, 131, 755, 24, 46, "Output",ExpressionUUID->"6cfbbc75-9c35-48fa-9aa9-d5cc65036924"]
+}, Open  ]],
+Cell[4961, 158, 302, 6, 58, "Text",ExpressionUUID->"92c39553-3602-4091-bd53-a66b507052e6"],
+Cell[CellGroupData[{
+Cell[5288, 168, 167, 3, 69, "Chapter",ExpressionUUID->"4fce5f0e-5a1e-4648-b91d-412fa0930118"],
+Cell[5458, 173, 419, 9, 104, "Text",ExpressionUUID->"eeed5322-d627-43e2-bda7-48e6bfbfe06a"],
+Cell[5880, 184, 571, 16, 196, "Text",ExpressionUUID->"91aae324-ec92-4b7f-93a5-e5be2494d68d"],
+Cell[6454, 202, 1019, 31, 495, "Text",ExpressionUUID->"5567187c-9e51-444f-bd3f-6e1035e1af1b"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
